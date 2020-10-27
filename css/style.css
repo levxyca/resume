@@ -51,6 +51,13 @@ hr {
     border: 1px solid #fafafa;
 }
 
+.height {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+
 @media (max-width: 600px) {
     .container {
         max-width: 90%;
@@ -62,6 +69,7 @@ hr {
     text-align: center;
     padding: 2rem 0rem;
     margin-top: 0.5rem;
+    min-width: 70%;
 }
 
 /* Footer */
